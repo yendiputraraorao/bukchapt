@@ -1,7 +1,6 @@
 <div class="alert alert-success">
-  <strong>Selamat Datang</strong>,  <?php 
-  /*echo $this->session->userdata('id_user'); 
-  echo $this->session->userdata('nama'); 
+  <strong>Selamat Datang</strong>,  <?php echo $this->session->userdata('nama'); 
+  /*echo $this->session->userdata('id_user');   
   echo $this->session->userdata('level'); 
   */
   ?>.
