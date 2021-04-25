@@ -3,7 +3,7 @@
   /*echo $this->session->userdata('id_user');   
   echo $this->session->userdata('level'); 
   */
-  ?>.
+  ?>
 </div>
 
 <a href="registrasi/create"><img src="image/registrasi.png"></a>
