@@ -31,7 +31,7 @@ class Anggota extends CI_Controller
         $config['total_rows'] = $this->Anggota_model->total_rows($q);
         $anggota = $this->Anggota_model->get_limit_data($config['per_page'], $start, $q);
 
-        $this->load->library('pagination');
+        $this->load->library('pagination'); // untuk membuat pagination
         $this->pagination->initialize($config);
 
         $data = array(
