@@ -76,9 +76,6 @@ error_reporting(0);
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	/*'username' => 'k4041014_1',
-	'password' => '3nm1cr0n1',
-	'database' => 'k4041014_hulu',*/
 	'username' => 'root',
 	'password' => '',
 	'database' => 'db',
